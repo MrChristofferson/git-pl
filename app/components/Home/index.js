@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Home.css';
+const exec = require('child_process').exec;
 
 export default class Home extends Component {
   render() {
